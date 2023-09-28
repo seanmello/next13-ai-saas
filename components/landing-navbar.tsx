@@ -20,7 +20,7 @@ export const LandingNavbar = () => {
   <Image fill alt="Logo" src="/smalltalk2.gif" />
 </div>
         <h1 className={cn("text-2xl font-bold text-white", font.className)}>
-          Genius
+          SMALL TALK
         </h1>
       </Link>
       <div className="flex items-center gap-x-2">
