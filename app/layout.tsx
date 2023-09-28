@@ -12,7 +12,8 @@ const font = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'SMALL TALK',
-  description: 'HAVE A LITTLE TALK WITH AI',
+  description: 'HAVE A LITTLE TALK WITH AI', 
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 }
 
 export default async function RootLayout({
