@@ -1,9 +1,11 @@
-import { Avatar, AvatarImage } from "@/components/ui/avatar";
+import React from "react";
 
-export const BotAvatar = () => {
+const BotAvatar: React.FC = () => {
   return (
-    <Avatar className="h-8 w-8">
-      <AvatarImage className="p-1" src="/logo.png" />
-    </Avatar>
+    <div className="bot-avatar">
+      <img src="/path/to/avatar.png" alt="Bot Avatar" className="w-16 h-16 rounded-full" />
+    </div>
   );
 };
+
+export default BotAvatar;
