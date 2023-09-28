@@ -1,7 +1,18 @@
-"use client";
+import React from "react";
 
-import { CrispChat } from "@/components/crisp-chat";
-
-export const CrispProvider = () => {
-  return <CrispChat />
+const YourGPTProvider: React.FC = () => {
+  return (
+    <div className="yourgpt-provider">
+      <script
+        src="https://widget.yourgpt.ai/script.js"
+        id="yourgpt-chatbot"
+        data-config='{
+          "YOURGPT_CHATBOT_UID": "21dcba3e-5227-48ac-a3c5-5583077d399c",
+          "YOURGPT_WIDGET_UID": "da535d4b-d36e-4731-93a2-ef7b1288f46c"
+        }'
+      ></script>
+    </div>
+  );
 };
+
+export default YourGPTProvider;
