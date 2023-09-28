@@ -1,12 +1,11 @@
-"use client";
+import React from "react";
 
-import { useEffect } from "react";
-import { Crisp } from "crisp-sdk-web";
-
-export const CrispChat = () => {
-  useEffect(() => {
-    Crisp.configure("21dcba3e-5227-48ac-a3c5-5583077d399c");
-  }, []);
-
-  return null;
+const YourGPTChat: React.FC = () => {
+  return (
+    <div className="yourgpt-chat">
+      {/* Your chat component JSX */}
+    </div>
+  );
 };
+
+export default YourGPTChat;
