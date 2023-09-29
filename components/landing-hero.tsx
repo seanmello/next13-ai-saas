@@ -41,6 +41,8 @@ export const LandingHero = () => {
       <div className="text-zinc-400 text-xs md:text-sm font-normal">
         No credit card required.
       </div>
+      <div>https://widget.yourgpt.ai/21dcba3e-5227-48ac-a3c5-5583077d399c/da535d4b-d36e-4731-93a2-ef7b1288f46c
+      </div>
     </div>
   );
 };
