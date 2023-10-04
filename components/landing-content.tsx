@@ -1,5 +1,3 @@
-"use client";
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const testimonials = [
@@ -29,7 +27,7 @@ const testimonials = [
   },
 ];
 
-export const LandingContent = () => {
+const Testimonials = () => {
   return (
     <div className="px-10 pb-20">
       <h2 className="text-center text-4xl text-white font-extrabold mb-10">Testimonials</h2>
@@ -50,6 +48,20 @@ export const LandingContent = () => {
           </Card>
         ))}
       </div>
+      <a href="https://dust.tt/w/a2354950ab/assistant/4771371b76" className="text-center block mt-8 text-blue-500 hover:text-blue-700">
+        Learn More
+      </a>
     </div>
-  )
-}
+  );
+};
+
+const HomePage = () => {
+  return (
+    <div>
+      <use-client />
+      <Testimonials />
+    </div>
+  );
+};
+
+export default HomePage;
